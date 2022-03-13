@@ -24,14 +24,14 @@ const App = () => {
         <section className="sec">
           <div className="dis">
             <h4>DISCRIPTION</h4>
-            <p className="gap">
+            <p className="gap para">
               There's one simple reason we call this our everyday oxford; we
               wear them pretty much every single day.
             </p>
           </div>
           <div className="mat heading">
             <h4>MATERIAL</h4>
-            <p className="gap">
+            <p className="gap para">
               Just the right amout of sturdy for year round wear. Soft to the
               touch but built for a decade of solid wear. Oxford is pretty
               versatile fabric that looks just as good as it does pulled off the
@@ -42,7 +42,7 @@ const App = () => {
           </div>
           <div className="wei heading">
             <h4>GARMENT WEIGHT</h4>
-            <p className="gap">
+            <p className="gap para">
               Your daily driver. Burlier than the average
               <br /> boutton ups.
             </p>
@@ -53,7 +53,7 @@ const App = () => {
         </section>
         <section className="sec">
           <h4 className="head-mob">SPECIFICATIONS</h4>
-          <div className="gap">
+          <div className="gap para">
             <ul>
               {specItems}
               <li>Single rounded chest pocket.</li>
@@ -62,7 +62,7 @@ const App = () => {
         </section>
         <section className="sec">
           <h4 className="head-mob">ESSENTIALS</h4>
-          <p className="gap">
+          <p className="gap para">
             This product is a Taylor Stich Essential that we aim to always keep
             in stock. Essentials are our tried and true products that we wear
             damn near everyday. If your size is currently out-of-stock, please
