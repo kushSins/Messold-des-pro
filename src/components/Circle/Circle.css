@@ -1,0 +1,56 @@
+.cir {
+  background-color: black;
+  border: solid 3px black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.cir-0 {
+  --cir-width: 0.5em;
+  --cir-height: 0.5em;
+  width: var(--cir-width);
+  height: var(--cir-height);
+  left: 0%;
+  top: calc((var(--height) / 2) - var(--cir-height) + 3%);
+}
+
+.cir-1 {
+  --cir-width: 0.3em;
+  --cir-height: 0.3em;
+  width: var(--cir-width);
+  height: var(--cir-height);
+  left: 25%;
+  top: calc((var(--height) / 2) - var(--cir-height) + 2%);
+}
+
+.cir-2 {
+  --cir-width: 0.5em;
+  --cir-height: 0.5em;
+  width: var(--cir-width);
+  height: var(--cir-height);
+  left: 50%;
+  top: calc((var(--height) / 2) - var(--cir-height) + 3%);
+}
+
+.cir-3 {
+  --cir-width: 0.3em;
+  --cir-height: 0.3em;
+  width: var(--cir-width);
+  height: var(--cir-height);
+  left: 75%;
+  top: calc((var(--height) / 2) - var(--cir-height) + 2%);
+}
+
+.cir-4 {
+  --cir-width: 0.5em;
+  --cir-height: 0.5em;
+  width: var(--cir-width);
+  height: var(--cir-height);
+  left: 100%;
+  top: calc((var(--height) / 2) - var(--cir-height) + 3%);
+}
+
+.active {
+  background-color: #998e56;
+  border: solid 3px #998e56;
+}
